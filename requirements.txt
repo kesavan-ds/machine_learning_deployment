@@ -102,7 +102,7 @@ easydict==1.13
 editdistance==0.8.1
 eerepr==0.1.2
 einops==0.8.2
-en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+en_core_web_sm
 entrypoints==0.4
 esda==2.9.0
 et_xmlfile==2.0.0
@@ -163,7 +163,7 @@ google-cloud-resource-manager==1.18.0
 google-cloud-spanner==3.68.0
 google-cloud-storage==3.13.1
 google-cloud-translate==3.27.0
-google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz
+google-colab 
 google-crc32c==1.8.0
 google-genai==2.12.1
 google-generativeai==0.8.6
@@ -256,7 +256,7 @@ jupyter-events==0.12.1
 jupyter-leaflet==0.20.0
 jupyter_client==7.4.9
 jupyter_core==5.9.1
-jupyter_kernel_gateway @ git+https://github.com/googlecolab/kernel_gateway@b134e9945df25c2dcb98ade9129399be10788671
+jupyter_kernel_gateway 
 jupyter_server==2.20.0
 jupyter_server_terminals==0.5.4
 jupyterlab_pygments==0.3.0
@@ -575,14 +575,14 @@ tokenizers==0.23.1
 toml==0.10.2
 tomlkit==0.14.0
 toolz==0.12.1
-torch @ https://download.pytorch.org/whl/cpu/torch-2.11.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl
+torch 
 torchao==0.10.0
-torchaudio @ https://download.pytorch.org/whl/cpu/torchaudio-2.11.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl
-torchcodec @ https://download.pytorch.org/whl/cpu/torchcodec-0.11.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl
+torchaudio 
+torchcodec 
 torchdata==0.11.0
 torchsummary==1.5.1
 torchtune==0.6.1
-torchvision @ https://download.pytorch.org/whl/cpu/torchvision-0.26.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl
+torchvision 
 tornado==6.5.7
 tqdm==4.67.3
 traitlets==5.7.1
