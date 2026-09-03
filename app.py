@@ -51,8 +51,8 @@ def predict():
         return jsonify({'error': str(e)}), 400
 
 # To run the app:
-if __name__ == '__main__':
-  #For local development:
-  app.run(debug=True)
- # For Colab (with ngrok): uncomment run_with_ngrok(app) at the top
-  app.run()
+import os
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
