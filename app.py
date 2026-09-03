@@ -8,6 +8,9 @@ import pandas as pd
 import numpy as np
 
 app = Flask(__name__)
+@app.route("/", methods=["GET"])
+def home():
+    return "Diabetes Prediction API is running"
 # Uncomment the line below if you are running in Google Colab and want to expose your API
 # run_with_ngrok(app)
 
