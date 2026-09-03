@@ -52,7 +52,7 @@ def predict():
 
 # To run the app:
 if __name__ == '__main__':
-  For local development:
+  #For local development:
   app.run(debug=True)
-  For Colab (with ngrok): uncomment run_with_ngrok(app) at the top
+ # For Colab (with ngrok): uncomment run_with_ngrok(app) at the top
   app.run()
